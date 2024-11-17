@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Pedro Henrique Ribeiro Lopes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#explorar">Explorar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1>Pedro Henrique Ribeiro Lopes</h1>
+            <img src="img/foto.jpg" width="200" height="200" alt="Foto de Pedro">
+            <p>Olá! Sou Pedro Henrique, apaixonado por tecnologia e inovação. Estou no último ano do ensino médio e venho desenvolvendo habilidades em Python, HTML, CSS, JavaScript e mais.</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>-PYTHON, HTML, CSS e JavaScript</li>
+                <li>-Responsividade e design moderno</li>
+                <li>-Trabalho em equipe</li>
+                <li>-Comunicação eficaz</li>
+            </ul>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="galeria">
+                <div class="projeto">
+                    <img src="img/projeto1.jpg" alt="Projeto 1">
+                    <p>Durante meu curso de Python, embarquei em um projeto desafiador e recompensador, desenvolvendo uma aplicação sofisticada que simula um sistema de chamados, inspirado no modelo amplamente reconhecido da Netflix. Este projeto se destaca por sua abordagem abrangente, incluindo uma página de login altamente segura para autenticação de usuários, garantindo a proteção rigorosa dos dados e acessos. Além disso, projetei uma dashboard incrivelmente intuitiva e visualmente atraente, que não apenas facilita a gestão e visualização de chamados, mas também permite um acompanhamento em tempo real do status de cada solicitação.
+
+                        Cada elemento do sistema foi minuciosamente planejado para maximizar a funcionalidade e a usabilidade, proporcionando aos usuários uma experiência eficiente, amigável e sem complicações. A interface da dashboard foi criada com foco na clareza e na eficiência, permitindo aos usuários monitorar e priorizar tarefas de maneira simplificada, otimizar o fluxo de trabalho e melhorar a resposta às solicitações.
+                        
+                        Para garantir que o sistema fosse robusto e confiável, implementei diversos recursos adicionais, como notificações automáticas, ferramentas de análise de dados e relatórios detalhados, que auxiliam na tomada de decisões informadas. O desenvolvimento deste projeto foi uma experiência profundamente educativa, aprimorando minhas habilidades em programação, design de interfaces e gerenciamento de projetos. Foi uma oportunidade única de aplicar teorias aprendidas em sala de aula a um contexto prático, resultando em uma solução tecnológica que combina inovação e praticidade.</p>
+                    <a href="https://github.com/pedroxx21/chamado" target="_blank">GitHub</a>
+                </div>
+                <div class="projeto">
+                    <img src="img/projeto2.jpg" alt="Projeto 2">
+                    <p>Na atividade Final de T.I do 3º Bimestre, desenvolvi um aplicativo para um sistema de educação a distância (EAD) de uma faculdade, com o intuito de facilitar o acesso às informações acadêmicas. Este aplicativo permitia aos usuários visualizar dados cruciais, como os nomes dos alunos, os cursos oferecidos, além de outras informações relevantes, todas em um só lugar. O projeto foi cuidadosamente planejado para ser uma ferramenta prática, intuitiva e funcional, destinada ao gerenciamento eficiente e à consulta de informações acadêmicas.
+
+                        A interface do app foi projetada com foco na usabilidade, garantindo que alunos e administradores pudessem navegar e acessar dados facilmente. Além disso, o sistema incorporou várias funcionalidades para atender às necessidades específicas do ambiente acadêmico, proporcionando uma solução robusta e integrada para a administração da faculdade. Com este aplicativo, foi possível melhorar significativamente a organização e o acesso às informações, contribuindo para a eficiência e a qualidade do ensino a distância.</p>
+                    <a href="https://github.com/pedroxx21/AtividadeFinal" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+        <section id="explorar">
+            <h2>Explorar</h2>
+            <div class="links">
+                <h3>Áreas de Conhecimento</h3>
+                <ul>
+                    <li><a href="areas/humanas.html">Ciências Humanas</a></li>
+                    <li><a href="areas/natureza.html">Ciências da Natureza</a></li>
+                    <li><a href="areas/matematica.html">Matemática</a></li>
+                    <li><a href="areas/linguagens.html">Linguagens</a></li>
+                    <li><a href="areas/geografia.html">Geografia</a></li>
+                    <li><a href="areas/ingles.html">ingles</a></li>
+                    <li><a href="areas/TI.html">T.I</a></li>
+                </ul>
+                <h3>Tendências Tecnológicas</h3>
+                <ul>
+                    <li><a href="tendencias/ciberseguranca.html">Cibersegurança</a></li>
+                    <li><a href="tendencias/blockchain.html">Blockchain</a></li>
+                    <li><a href="tendencias/automacao.html">Automação e Robótica</a></li>
+                    <li><a href="tendencias/edge.html">Edge Computing</a></li>
+                    <li><a href="tendencias/bitcoin.html">Bitcoin</a></li>
+                    <li><a href="tendencias/profissoesdofuturo.html">Profissões do Futuro</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pedro Henrique Ribeiro Lopes</p>
+    </footer>
+</body>
+</html>
