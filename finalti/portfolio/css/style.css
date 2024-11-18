@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('https://i.imgur.com/m8irZKr.jpg'); /* Substitua por um URL válido */
+    background-image: url('https://i.imgur.com/m8irZKr.jpg'); 
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -97,8 +97,8 @@ footer {
     box-sizing: border-box;
     transition: transform 0.3s ease;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.726); /* Fundo transparente leve */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background-color: rgba(255, 255, 255, 0.726); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 /* Efeito de hover para aumentar o projeto */
@@ -201,7 +201,7 @@ form button:hover {
 }
 /* Estilos para a seção Explorar */
 #explorar {
-    background-color: #f9f9f96c; /* Leve transparência */
+    background-color: #f9f9f96c; 
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -292,8 +292,8 @@ form button:hover {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 1em;
-    transition: transform 0.3s ease; /* Transição suave */
-    cursor: pointer; /* Cursor de clique */
+    transition: transform 0.3s ease; 
+    cursor: pointer; 
 }
 
 #sobre p {
@@ -308,7 +308,7 @@ form button:hover {
 #habilidades {
     text-align: center;
     padding: 2em;
-    background-color:#f9f9f96c; /* Leve transparência */
+    background-color:#f9f9f96c; 
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -334,7 +334,7 @@ form button:hover {
 
  /* Estilos para a seção Contatos */
 #contato {
-    background-color: #f9f9f96c; /* Leve transparência */
+    background-color: #f9f9f96c; 
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
